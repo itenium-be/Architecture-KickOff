@@ -88,18 +88,20 @@ This grows organically within a team: typically the most senior and/or knowledge
 -->
 
 ---
-layout: default
+layout: default-aside
 ---
 
 # Architect: Kinds?
 
-<v-clicks>
+<div class="flex justify-center items-center h-full">
 
-- **Developer** · **Lead Dev** — 100% Coding
-- **Application Architect** · **Solution Architect** — Mix
-- **Enterprise Architect** — 100% Meetings
+![](./images/architect-kinds-spectrum.png)
 
-</v-clicks>
+</div>
+
+::image::
+
+![](./images/architect-kinds.png)
 
 <!--
 **Lead Dev & App Architect**: Some additional meetings with other developers (about design, production issues, deployment issues), meetings with PO/PM about feasability and high level estimates, …
@@ -110,7 +112,8 @@ layout: default
 -->
 
 ---
-layout: default
+layout: default-aside
+textSize: sm
 h1:
   type: hash
   color: muted
@@ -136,6 +139,10 @@ h1:
 
 </v-clicks>
 
+::image::
+
+![](./images/architect-kinds2.png)
+
 <!--
 **Application Architect**: Focus on technical components
 
@@ -149,7 +156,8 @@ h1:
 -->
 
 ---
-layout: default
+layout: default-aside
+textSize: xl
 ---
 
 # Application Architect
@@ -163,6 +171,10 @@ layout: default
 - Management Skills
 
 </v-clicks>
+
+::image::
+
+![](./images/application-architect.png)
 
 <!--
 A mix of soft & hard skills
@@ -179,7 +191,7 @@ A mix of soft & hard skills
 -->
 
 ---
-layout: default
+layout: default-aside
 h1:
   type: dot
   color: primary
@@ -202,6 +214,10 @@ size: sm
 - Architectural evolution
 
 </v-clicks>
+
+::image::
+
+![](./images/architect-tasks.png)
 
 <!--
 Tasks could be for Application Architect only or for Enterprise Architect only – depending on the company.
@@ -243,8 +259,12 @@ Good architecture makes it easy to do the right thing and hard to do the wrong t
 
 Within all constraints and requirements, do the simplest thing and grow the architecture with the code
 
+::image::
+
+![](./images/architecture-what.png)
+
 ---
-layout: default
+layout: default-aside
 h1:
   type: brackets
   color: muted
@@ -268,6 +288,10 @@ size: sm
 
 </v-clicks>
 
+::image::
+
+![](./images/non-functionals.png)
+
 ---
 layout: section
 ---
@@ -275,7 +299,7 @@ layout: section
 # Design!
 
 ---
-layout: default
+layout: default-aside
 h1:
   type: slashes
   color: primary
@@ -293,6 +317,10 @@ h1:
 
 </v-clicks>
 
+::image::
+
+![](./images/architecture-pitfalls.png)
+
 <!--
 **No Design**: Ok for small and one-time things (migrations, scripts, …) For larger applications: after a while, making the same small change takes more and more development time and a greater chance for incomplete implementations.
 
@@ -302,7 +330,8 @@ h1:
 -->
 
 ---
-layout: default
+layout: default-aside
+textSize: xl
 ---
 
 # Small Frameworks
@@ -318,12 +347,16 @@ layout: default
 
 </v-clicks>
 
+::image::
+
+![](./images/small-frameworks.png)
+
 ---
-layout: default
+layout: default-aside
 h1:
   type: braces
   color: muted
-  position: 2
+  position: 1-2
 h2:
   type: dot
   color: primary
@@ -344,6 +377,10 @@ h2:
 - Or… Strangle Applications
 
 </v-clicks>
+
+::image::
+
+![](./images/brown-field.png)
 
 ---
 layout: statement
