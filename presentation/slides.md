@@ -53,7 +53,7 @@ A software architect is a **software expert** who makes **high-level design** ch
 -->
 
 ---
-layout: default
+layout: default-aside
 h1:
   type: braces
   color: primary
@@ -62,10 +62,18 @@ h1:
 
 # Architect: How?
 
-```mermaid
+<div class="flex justify-center items-center h-full">
+
+```mermaid {scale: 1.3}
 graph LR
   A["🧑‍💻 Developer\n1 platform\n1 domain"] --> B["👨‍💼 Lead Dev\n1+ platform\n2+ domain"] --> C["🏛️ Architect\n+ Architectural\ntheory & practice"]
 ```
+
+</div>
+
+::image::
+
+![](./images/architect-how.png)
 
 <!--
 Becoming an architect is a **logical evolution** for a developer. As he gains more knowledge & experience, a developer evolves to a role as « Lead Dev » and then into that of « architect ». If the developer **wants** this: some want to stay in the developer role: « give me a story for me to implement and not too many time-wasting meetings please »
