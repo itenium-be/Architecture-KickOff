@@ -1,5 +1,6 @@
 .~lock.*.pptx#
 .claude/settings.local.json
+docs/superpowers
 
 # Slidev
 presentation/node_modules/
