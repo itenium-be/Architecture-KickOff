@@ -1,6 +1,7 @@
 ---
 theme: ./theme
-title: 2022-04-28-Architecture
+title: Architecture
+subTitle: Architecture kick-off
 transition: fade
 session-time: 60min
 track: Architecture
