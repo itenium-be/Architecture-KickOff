@@ -848,11 +848,10 @@ size: sm
 
 <v-clicks>
 
-- *Clean Architecture* — Robert C. Martin
-- *Fundamentals of Software Architecture* — Richards & Ford
-- *A Philosophy of Software Design* — John Ousterhout
 - *The Pragmatic Programmer* — Hunt & Thomas
-- *Building Evolutionary Architectures* — Ford, Parsons, Kua
+- *A Philosophy of Software Design* — John Ousterhout
+- *Fundamentals of Software Architecture* — Richards & Ford
+- *Modern Software Engineering* — David Farley
 - Residuality Theory — Barry O'Reilly
 
 </v-clicks>
