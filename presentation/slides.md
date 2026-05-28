@@ -7,6 +7,7 @@ session-time: 60min
 track: Architecture
 type: Theoretical
 first: 2022-04-28
+aspectRatio: 16/10
 ---
 
 # Architecture
