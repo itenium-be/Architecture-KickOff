@@ -3,18 +3,16 @@ ArchitectureTrack
 
 Theoretical kick off session for our Architecture Track.
 
-Follow Up Sessions
-------------------
+## Presentation
 
-- Architectures: Spaces-Based, Microkernel
-- UnitTesting: Theoretical & Hands-On Sessions
-- Design Patterns
-- Git Deep Dive
+```bash
+cd presentation
+bun install
+bun run dev
+```
 
-... more to come:  
-
-- Other architectures
-- Security
-- Concurrency
-- ...
-
+Update the theme:
+```bash
+cd presentation/theme
+git pull
+```
